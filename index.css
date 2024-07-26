@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+.img{
+    position: absolute;
+    width: 100vw;
+    height: 60vh;
+}
+.nav{
+    position: fixed;
+    z-index: 1;
+}
+.nav , .navbar{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 12vh;
+}
+.logo{
+    /* filter: invert(100%); */
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 30px
+}
+.items{
+    list-style: none;
+}
+.items a{
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px 10px;
+}
+.items a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+.text{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 65vh;
+}
+.text-data{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+    /* border: 2px solid green; */
+}
+.button{
+    padding: 6px 10px;
+    background: transparent;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color: red;
+    border: none;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+.services{
+    display: flex;
+    /* justify-content: space-around; */
+   }
+.box{
+    border: 3px solid red;
+    background-color: rgb(231, 229, 229);
+    width: 380px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+}
+.bg-pic{
+    margin-top: 30px;
+    position: absolute;
+    width: 100vw;
+    height: 27vh;
+    opacity: .3;
+}
+.contact{
+    margin-top: 48px;
+    position: relative;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    width: 80px;
+    height: 80px;
+    padding: 20px;
+}
+#skype{
+    width: 120px;
+}
+.contact-pic{
+    position: absolute;
+    width: 100vw;
+    height: 70vh;
+    opacity: .3;
+}
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    display: block;
+    font-weight: bold;
+    padding: 5px;
+}
+input{
+    width: 40vw;
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    width: 40vw;
+}
+#desc{
+    border-radius: 5px;
+}
+footer{
+    margin-top: 20px;
+    position: relative;
+    background-color: black;
+    width: 100vw;
+    height: 60px;
+    color: white;
+    text-align: center;
+}

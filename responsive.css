@@ -1,0 +1,31 @@
+
+.nav{
+flex-direction: column;
+}
+.navbar{
+   justify-content: center; 
+}
+.services{
+    flex-direction: column;
+}
+.box { 
+    width: 92vw;
+    padding: auto;
+    margin: 2px 2px; 
+    margin-bottom: 20px;
+}
+.clients{
+   flex-wrap: wrap;
+}
+.bg-pic{
+    height: 35vh;
+}
+input{
+    width: 80vw;
+}
+textarea{
+    width: 80vw;
+}
+footer{
+    margin-top: 130px;
+}
