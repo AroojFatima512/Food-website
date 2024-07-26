@@ -18,7 +18,7 @@ flex-direction: column;
    flex-wrap: wrap;
 }
 .bg-pic{
-    height: 35vh;
+    height: 38vh;
 }
 input{
     width: 80vw;
@@ -27,5 +27,5 @@ textarea{
     width: 80vw;
 }
 footer{
-    margin-top: 130px;
+    margin-top: 100px;
 }
